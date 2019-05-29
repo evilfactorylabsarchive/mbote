@@ -1,0 +1,16 @@
+{
+    "rss": [
+        {
+            "rss": "https://www.reddit.com/.rss",
+            "format": "title|link.href"
+        },
+        {
+            "rss": "https://108kb.io/blog/rss.xml",
+            "format": "title|link"
+        },
+        {
+            "rss": "https://medium.com/feed/@ri7nz/",
+            "format": "title|link"
+        }
+    ]
+}

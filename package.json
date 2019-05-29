@@ -1,0 +1,21 @@
+{
+  "name": "mbote",
+  "version": "1.0.0",
+  "description": "Evilfactory Member Blog",
+  "main": "src/index.js",
+  "author": "evilfactorylabs",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "24.8.0",
+    "micro-dev": "3.0.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "feedsub": "0.7.1",
+    "micro": "9.3.4",
+    "node-fetch": "2.6.0"
+  }
+}
