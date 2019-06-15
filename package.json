@@ -11,7 +11,8 @@
   },
   "scripts": {
     "test": "jest",
-    "start": "node ./src/index.js"
+    "start": "micro",
+    "dev": "micro-dev"
   },
   "dependencies": {
     "feedsub": "0.7.1",
