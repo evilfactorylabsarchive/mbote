@@ -90,7 +90,7 @@ const validateItem = data => {
 }
 
 const sendToDiscrot = (data, cb) => {
-  // Discord have API Rate Limit with treshold 5000ms (assumed)
+  // Discord have API Rate Limit with threshold 5000ms (assumed)
   // since we don't know the exact number, let's just debounce it
   // every 5s. play safe everybodeeh
 
