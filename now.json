@@ -3,7 +3,11 @@
   "version": 2,
   "builds": [{ "src": "src/index.js", "use": "@now/node" }],
   "routes": [{ "src": "/(.*)", "dest": "/src/index.js" }],
+  "github": {
+    "enabled": false
+  },
   "env": {
-    "DISCORD_WEBHOOK_FOR_RSS": "@discord-webhook-for-rss"
+    "DISCORD_WEBHOOK_FOR_RSS": "@discord-webhook-for-rss",
+    "GITHUB_FOR_RSS": "@github-for-rss"
   }
 }
