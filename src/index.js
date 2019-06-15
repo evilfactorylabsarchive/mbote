@@ -188,6 +188,18 @@ const sendToDiscrot = (data, cb) => {
   timer += 5000
 }
 
+/**
+ * FIXME: Zeit now has limitation after some threshold (20000ms I guess)
+ * if there is no "response status" code from our app, they will give us (a user)
+ * 502 BAD GATEWAY. This is fine, but I hate this noise. Can we make it more beautiful
+ * by hiding this error page?
+ *
+ * that error occurs because either there is unresolved `Promise` or because it use `Stream`.
+ * before it (when using `fs`), that "feature" doesn't exists in our app.
+ * can you please figure out and fix that "feature"? Thanks.
+ * i am too sleepy to figuring the bug, maybe you don't.
+ */
+
 module.exports = async () => {
   // get previous cached rss so we can compare
   // it with the newest ones
