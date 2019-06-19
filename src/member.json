@@ -1,6 +1,10 @@
 {
   "rss": [
     {
+      "rss": "https://inside.evilfactory.id/index.xml",
+      "format": "title|link"
+    },
+    {
       "rss": "https://afrijaldzuhri.com/rss.xml",
       "format": "title|link"
     },
